@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             x:Class="test_oodrive2.AnalysisPage"
+             Title="Task Analysis">
+
+    <StackLayout Padding="20">
+        <Label Text="Sélectionnez une plage de dates:" FontSize="Medium" />
+
+        <DatePicker x:Name="StartDatePicker" 
+                    Date="{x:Static sys:DateTime.Now}" 
+                    Format="D" />
+
+        <DatePicker x:Name="EndDatePicker" 
+                    Date="{x:Static sys:DateTime.Now}" 
+                    Format="D" />
+
+        <Label x:Name="CreatedTaskLabel" 
+               Text="Tâches créées : 0" 
+               FontSize="Large" 
+               HorizontalOptions="Center" />
+
+        <Label x:Name="CompletedTaskLabel" 
+               Text="Tâches complétées : 0" 
+               FontSize="Large" 
+               HorizontalOptions="Center" />
+
+        <Button Text="Analyser"
+                Clicked="OnAnalyzeButtonClicked"
+                HorizontalOptions="Center"
+                Margin="10" />
+    </StackLayout>
+</ContentPage>
