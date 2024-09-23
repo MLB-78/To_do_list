@@ -22,4 +22,5 @@ Pour mieux organiser vos objectifs quotidiens, vous allez créer une application
 - Un formulaire simple pour ajouter de nouvelles tâches
 - Créez une page « d'analyse » simple qui affiche le nombre de tâches créées et le nombre de tâches terminées dans un laps de temps spécifique (par défaut les 7 derniers jours). En utilisant les paramètres de requête, la page doit accepter deux plages de dates et filtrer les tâches en conséquence
 
-
+<img src="ToDo/t1.png" alt="Texte alternatif" width="450">
+<img src="ToDo/t2.png" alt="Texte alternatif" width="450">
