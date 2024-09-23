@@ -23,4 +23,3 @@ Pour mieux organiser vos objectifs quotidiens, vous allez créer une application
 - Créez une page « d'analyse » simple qui affiche le nombre de tâches créées et le nombre de tâches terminées dans un laps de temps spécifique (par défaut les 7 derniers jours). En utilisant les paramètres de requête, la page doit accepter deux plages de dates et filtrer les tâches en conséquence
 
 
-Veuillez organiser, concevoir, tester et documenter votre code comme s'il allait être mis en production, puis transmettez vos modifications à la branche principale.
